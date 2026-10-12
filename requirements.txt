@@ -1,0 +1,8 @@
+﻿# InvisiText Dependencies
+
+# Optional runtime dependency: High-quality Lanczos scaling for GUI icon/logo
+# (The application falls back to Tkinter PhotoImage subsampling if Pillow is omitted)
+Pillow>=9.0.0
+
+# Build dependencies: Required to generate Windows .ico and compile standalone .exe
+pyinstaller>=5.0.0
